@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comercio en linea"/>
+    <meta name="keywords" content="Compras"/>
+    <meta name="author" content="Eric Nicolas Dufey"/>
+    <title>Mercadolibre</title>
+    <link rel="icon" href="img/mercadolibre_logo.png" type="image/x-icon"/> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<header>
+<div class="row d-flex align-items-center ">
+    <div class="col-2"><img src="img/mercadolibre_logo1.png" class="img-fluid ml-logo"></div>
+    <div class="col">
+    <form class="d-flex gap-2">
+        <input class="form-control search-input" type="search" placeholder="Buscar productos, marcas y más...">
+        <button class="btn btn-light">
+            <i class="bi bi-search"></i>
+        </button>
+    </form>
+</div>
+    <div class="col-2 d-flex justify-content-end">
+        <div class="d-flex align-items-center felx-nowrap">
+        <img src="img/mercadoplay.png" class=" mlp-logo">
+        <span class="ms-2 mercadoplay-text text-nowrap">Series y películas ¡GRATIS!</span>
+        </div>
+    </div>
+    <div class="row py-2 second-nav align-items-center">
+
+    <div class="col d-flex align-items-center gap-3">
+        <span><i class="bi bi-geo-alt"></i>
+        Enviar a Eric</span>
+        <span>Categorías</span>
+        <span>Ofertas</span>
+        <span>Cupones</span>
+        <span>Supermercado</span>
+    </div>
+
+    <div class="col-auto d-flex align-items-center gap-3">
+        <span>Mis compras</span>
+        <span>Favoritos</span>
+        <i class="bi bi-bell"></i>
+        <i class="bi bi-cart"></i>
+    </div>
+
+</div>
+</div>
+</header>
+
+<body>
+    <main>
+        <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+</div>
+
+    <div class="carousel-inner">
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+        <div class="carousel-item active">
+            <img src="img/carrusel_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel_3.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel_4.png" class="d-block w-100">
+        </div>
+    </div>
+    </div>
+    <section class="home-products">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-2">
+                <a href="producto_1.html" class="product-card">
+                    <img src="img/Producto_1.png" class="img-fluid">
+                    <h5 class="product-title">Monitor gamer ASUS 27"</h5>
+                    <p class="product-price">$ 350.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_2.html" class="product-card">
+                    <img src="img/Producto_2.png" class="img-fluid">
+                    <h5 class="product-title">Playstation 5 slim + 2 juegos</h5>
+                    <p class="product-price">$ 999.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_3.html" class="product-card">
+                    <img src="img/Producto_3.png" class="img-fluid">
+                    <h5 class="product-title">Vaso doble vidrio para café X6u.</h5>
+                    <p class="product-price">$ 25.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_4.html" class="product-card">
+                    <img src="img/Producto_4.png" class="img-fluid">
+                    <h5 class="product-title">Powerbank Xiaomi 10000mAh</h5>
+                    <p class="product-price">$ 45.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_5.html" class="product-card">
+                    <img src="img/Producto_5.png" class="img-fluid">
+                    <h5 class="product-title">Parlante inalámbrico JBL</h5>
+                    <p class="product-price">$ 650.000</p>
+                </a>
+            </div>
+
+
+            <div class="col-2">
+                <a href="producto_6.html" class="product-card">
+                    <img src="img/Producto_6.png" class="img-fluid">
+                    <h5 class="product-title">Barra de sonido SONOS</h5>
+                    <p class="product-price">$ 455.000</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="promo-banners container my-4">
+    <div class="row g-3">
+
+        <div class="col-md-6">
+            <a href="#" class="promo-banner">
+                <img src="img/banner_1.png" class="img-fluid" alt="Banner Springwall">
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <a href="#" class="promo-banner">
+                <img src="img/banner_2.png" class="img-fluid" alt="Banner Samsung">
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section class="products-normal">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-2">
+                <a href="producto_7.html" class="product-card">
+                    <img src="img/Producto_7.png" class="img-fluid">
+                    <h5 class="product-title">Auriculares Sony wh1000xm5</h5>
+                    <p class="product-price">$ 310.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_8.html" class="product-card">
+                    <img src="img/Producto_8.png" class="img-fluid">
+                    <h5 class="product-title">Mochila porta notebook 15.6</h5>
+                    <p class="product-price">$ 22.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="/producto_9.html" class="product-card">
+                    <img src="img/Producto_9.png" class="img-fluid">
+                    <h5 class="product-title">Organizador de cables digital</h5>
+                    <p class="product-price">$ 15.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="/producto_10.html" class="product-card">
+                    <img src="img/Producto_10.png" class="img-fluid">
+                    <h5 class="product-title">Cargador rápido 25w</h5>
+                    <p class="product-price">$ 35.000</p>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="producto_11.html" class="product-card">
+                    <img src="img/Producto_11.png" class="img-fluid">
+                    <h5 class="product-title">Teléfono Samsung Galaxy S25 ULTRA</h5>
+                    <p class="product-price">$ 2.445.000</p>
+                </a>
+            </div>
+
+
+            <div class="col-2">
+                <a href="/producto_12.html" class="product-card">
+                    <img src="img/Producto_12.png" class="img-fluid">
+                    <h5 class="product-title">Disco SSD Kingston 256GB</h5>
+                    <p class="product-price">$ 113.000</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="beneficios-section">
+    <div class="container">
+        <div class="beneficios-box">
+            <h2 class="beneficios-title">Beneficios en entretenimiento</h2>
+
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <a href="#" class="beneficio-card">
+                        <img src="img/hbo.png" alt="HBO Max" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#" class="beneficio-card">
+                        <img src="img/universal.png" alt="Universal+" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#" class="beneficio-card">
+                        <img src="img/vix.png" alt="Vix Premium" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="info-benefits">
+    <div class="container py-5">
+
+        <div class="row text-center info-benefits-row">
+            <div class="col-md-4 info-item">
+                <i class="bi bi-credit-card info-icon"></i>
+                <h3 class="info-title">Elegí cómo pagar</h3>
+                <p class="info-text">
+                    Podés pagar con tarjeta, débito, efectivo o con Cuotas sin Tarjeta.
+                </p>
+                <a href="#" class="info-link">Cómo pagar tus compras</a>
+            </div>
+
+            <div class="col-md-4 info-item">
+                <i class="bi bi-box-seam info-icon"></i>
+                <h3 class="info-title">Envío gratis desde $ 33.000</h3>
+                <p class="info-text">
+                    Solo por estar registrado en Mercado Libre tenés envíos gratis en miles de productos.
+                </p>
+                <a href="#" class="info-link">Ver más sobre envíos</a>
+            </div>
+
+            <div class="col-md-4 info-item">
+                <i class="bi bi-shield-check info-icon"></i>
+                <h3 class="info-title">Seguridad, de principio a fin</h3>
+                <p class="info-text">
+                    ¿No te gusta? ¡Devolvelo! Estás siempre protegido.
+                </p>
+                <a href="#" class="info-link">Cómo te protegemos</a>
+            </div>
+        </div>
+
+        <div class="row mt-4 g-3">
+            <div class="col-md-6">
+                <div class="info-box">
+                    Botón de arrepentimiento y baja de servicio
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info-box">
+                    Conocé las normas que aplican cuando compras
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    </main>
+
+    <footer class="footer-ml">
+    <div class="container">
+
+        <div class="footer-links">
+            <a href="#">Trabajá con nosotros</a>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Promociones</a>
+            <a href="#">Cómo cuidamos tu privacidad</a>
+            <a href="#">Accesibilidad</a>
+            <a href="#">Información al usuario financiero</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Defensa del Consumidor</a>
+            <a href="#">Información sobre seguros</a>
+            <a href="#">Libro de quejas online</a>
+            <a href="#">Programa de Afiliados</a>
+        </div>
+
+        <div class="footer-legal">
+            <p>Copyright © 1999–2025 MercadoLibre S.R.L.</p>
+            <p>Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA</p>
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+</html>
