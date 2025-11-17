@@ -78,3 +78,40 @@ main {
     font-size: 14px;
     line-height: 1.4;
 }
+
+.ml-card {
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.06);
+    transition: transform 0.15s ease,box-sahdow 0.15s ease;
+}
+.ml-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.12);
+}
+
+.ia-box {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e6e6e6;
+    padding: 18px;
+    min-height: 230px;
+}
+.question-box {
+    background: #fafafa;
+    border-radius: 12px;
+    border:1px solid #ddd;
+    padding: 14px 18px;
+    margin-bottom:12px;
+
+}
+.question-user {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.question-answer {
+    margin: 0;
+    color: #444;
+}
